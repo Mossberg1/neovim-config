@@ -22,6 +22,7 @@ return {
                     "tailwindcss",
                     "dockerls",
                     "html",
+                    "htmx",
                     "ts_ls",
                     "lua_ls",
                     "pyright",
@@ -59,6 +60,9 @@ return {
             lsp.html.setup({
                 capabilities = capabilities
             })
+	    lsp.htmx.setup({
+		capabilities = capabilities
+	    })
             lsp.ts_ls.setup({
                 capabilities = capabilities
             })
