@@ -1,0 +1,9 @@
+{
+    "diagnostics.globals": [
+        "vim",
+        "set_colorscheme"
+    ],
+    "diagnostics.disable": [
+        "trailing-space"
+    ]
+}
