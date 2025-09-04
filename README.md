@@ -1,4 +1,4 @@
 # Neovim config
 
-## Link to LSP list.
-[Link Text](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md)
+## Links
+[Link to LSPs](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md)
