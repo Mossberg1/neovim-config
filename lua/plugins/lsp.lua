@@ -27,6 +27,7 @@ return {
                     "lua_ls",
                     "pyright",
                     "rust_analyzer",
+                    "glsl_analyzer"
                 },
             })
         end,
@@ -60,9 +61,9 @@ return {
             lsp.html.setup({
                 capabilities = capabilities
             })
-	    lsp.htmx.setup({
-		capabilities = capabilities
-	    })
+	        lsp.htmx.setup({
+		        capabilities = capabilities
+	        })
             lsp.ts_ls.setup({
                 capabilities = capabilities
             })
@@ -73,6 +74,9 @@ return {
                 capabilities = capabilities
             })
             lsp.rust_analyzer.setup({
+                capabilities = capabilities
+            })
+            lsp.glsl_analyzer.setup({
                 capabilities = capabilities
             })
 

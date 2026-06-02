@@ -8,7 +8,7 @@ return {
     opts = { },
     config = function()
         require("tokyonight").setup({
-            transparent = true,
+            transparent = false,
             terminal_colors = true
         })    
     end

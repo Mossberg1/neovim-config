@@ -2,7 +2,7 @@
 -- This function will also add transparency to neovim.
 
 function set_colorscheme(color)
-    color = color or "onedark"
+    color = color or "tokyonight"
     vim.cmd.colorscheme(color)
     
     -- Transparent backgrounds
