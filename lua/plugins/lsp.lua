@@ -27,7 +27,8 @@ return {
                     "lua_ls",
                     "pyright",
                     "rust_analyzer",
-                    "glsl_analyzer"
+                    "glsl_analyzer",
+                    "solargraph",
                 },
             })
         end,
@@ -77,6 +78,9 @@ return {
                 capabilities = capabilities
             })
             lsp.glsl_analyzer.setup({
+                capabilities = capabilities
+            })
+            lsp.solargraph.setup({
                 capabilities = capabilities
             })
 
