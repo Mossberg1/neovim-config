@@ -1,4 +1,5 @@
 # Neovim config
+This is the repository for my neovim configuration.
 
 ## Lsp
 Lsp servers are added inside lua/plugins/lsp.lua.
